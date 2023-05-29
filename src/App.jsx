@@ -52,7 +52,7 @@ const App = () => {
     const btn = () => {
         // console.log("clicked");
         if(!text){
-                alert("Please add your task here")
+                alert("Please add your task")
         }
         else if(text && !toggle){
             newText(
